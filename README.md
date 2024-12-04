@@ -2,7 +2,6 @@
 
 ## Team Members
 
----
 
 - Mengtian Chen
 - Shulei Wu
