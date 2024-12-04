@@ -105,7 +105,7 @@ for {set i 1} {$i < $n} {incr i} {
 
 ## Files Use
 
-- Input: lmd.xyz (50 frames, 108 argon atoms)
+- Input: Data/lmd.xyz (50 frames, 108 argon atoms)
 - Format per frame:
     
     ```
