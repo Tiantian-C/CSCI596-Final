@@ -114,7 +114,7 @@ for {set i 1} {$i < $n} {incr i} {
     Ar x y z (coordinates for each atom)
     ```
 ## Display
-![Visualization Example](/Images/visualization.png)
+![Visualization Example](/Image/visualization.png)
     
 
 ## Limitations and Considerations
