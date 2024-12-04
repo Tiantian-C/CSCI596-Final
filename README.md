@@ -2,20 +2,15 @@
 
 ## Team Members
 
-
 - Mengtian Chen
 - Shulei Wu
 - Yu Wu
 
 ## Overview
 
----
-
 This project aims to visualize the kinetic energy distribution in molecular dynamics simulation through color-coding atoms. The primary objective is to provide an intuitive way to observe atomic motion and energy states by mapping kinetic energy values to a color spectrum, where different colors represent varying levels of atomic motion. Through this visualization, we can better understand the dynamic behavior of atoms in the simulation system, particularly their relative motion and energy distribution patterns.
 
 ## Detailed Implementation Steps
-
----
 
 ### 1. Data Loading
 
@@ -103,16 +98,12 @@ for {set i 1} {$i < $n} {incr i} {
 
 ## Results and Visualization
 
----
-
 - Visualization achieved through VMD's color mapping
 - Dynamic display of atomic motion
 - Color distribution reflects kinetic energy distribution
 - Animation playback controlled through VMD Main window
 
 ## Files Use
-
----
 
 - Input: lmd.xyz (50 frames, 108 argon atoms)
 - Format per frame:
@@ -125,8 +116,6 @@ for {set i 1} {$i < $n} {incr i} {
     
 
 ## Limitations and Considerations
-
----
 
 1. Velocity estimation based on position changes
 2. Relative rather than absolute kinetic energy values
