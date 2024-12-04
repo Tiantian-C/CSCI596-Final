@@ -83,6 +83,17 @@ for {set i 1} {$i < $n} {incr i} {
 ### 4. Technical Details
 
 ### Kinetic Energy Calculation Method
+```
+Kinetic Energy Calculation
+tclCopy# Key calculation components:
+vx = x2 - x1  # Velocity in x direction
+vy = y2 - y1  # Velocity in y direction
+vz = z2 - z1  # Velocity in z direction
+
+# Kinetic energy calculation
+v_squared = vx² + vy² + vz²
+ke_val = 1.0 - exp(-50.0 * v_squared)
+```
 
 1. Position Change Analysis
     - Calculate displacement between consecutive frames
