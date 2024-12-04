@@ -113,6 +113,8 @@ for {set i 1} {$i < $n} {incr i} {
     Molecular dynamics simulation of argon
     Ar x y z (coordinates for each atom)
     ```
+## Display
+![Visualization Example](/Images/visualization.png)
     
 
 ## Limitations and Considerations
@@ -120,3 +122,4 @@ for {set i 1} {$i < $n} {incr i} {
 1. Velocity estimation based on position changes
 2. Relative rather than absolute kinetic energy values
 3. Color scale may need adjustment based on specific data ranges
+   
