@@ -84,7 +84,6 @@ for {set i 1} {$i < $n} {incr i} {
 
 ### Kinetic Energy Calculation Method
 ```
-Kinetic Energy Calculation
 # Key calculation components:
 vx = x2 - x1  # Velocity in x direction
 vy = y2 - y1  # Velocity in y direction
