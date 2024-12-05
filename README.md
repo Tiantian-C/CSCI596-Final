@@ -7,10 +7,15 @@
 - Yu Wu
 
 ## Overview
+The main problem we're trying to solve is how to make atomic motion more visually intuitive. While we have lots of numerical data about atomic movements, it's challenging to understand the dynamic behavior just by looking at numbers.
+
 
 This project aims to visualize the kinetic energy distribution in molecular dynamics simulation through color-coding atoms. The primary objective is to provide an intuitive way to observe atomic motion and energy states by mapping kinetic energy values to a color spectrum, where different colors represent varying levels of atomic motion. Through this visualization, we can better understand the dynamic behavior of atoms in the simulation system, particularly their relative motion and energy distribution patterns.
 
 ## Detailed Implementation Steps
+Our solution is to develop a color-coded visualization system using VMD. The basic idea is to map the kinetic energy of each atom to different colors representing different energy levels. For example, atoms moving faster will appear red, while slower ones will be blue.
+
+For the implementation, we're using a molecular dynamics trajectory file containing 50 frames of simulation data for 108 atoms. Our TCL script calculates the kinetic energy by analyzing how atomic positions change between consecutive frames, then maps these values to different colors.
 
 ### 1. Data Loading
 
