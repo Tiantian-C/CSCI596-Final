@@ -129,12 +129,16 @@ ke_val = 1.0 - exp(-50.0 * v_squared)
     Ar x y z (coordinates for each atom)
     ```
 ## Display
+current visualization - atoms are color-coded based on their kinetic energy
+- blue: lower energy states
+- red: represents higher energy levels
+- grey or lighter colors: intermediate energy levels
 <img src="Image/visualization.png" alt="Visualization Example" width="500">
 
 
-## Limitations and Considerations
+## Future Plan and Considerations
 
-1. Velocity estimation based on position changes
-2. Relative rather than absolute kinetic energy values
-3. Color scale may need adjustment based on specific data ranges
+1. visualizing thermal equilibration between hot and cold regions
+2. developing a new RGB color-mapping based on atomic velocities
+3. other features that give us better insights into molecular dynamics
    
